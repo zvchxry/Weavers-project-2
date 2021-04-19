@@ -1,0 +1,430 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {
+    display: block;
+}
+
+body {
+    background-color   : #42455a;
+    background-position: top right;
+    background-repeat  : no-repeat;
+    font-family        : Arial, Helvetica, sans-serif;
+    /*width: 100vw;*/
+    height: 50vh;
+}
+   
+#contact {
+    font-size: 90%;
+}
+
+#desktop {
+   display: inline;
+}
+
+dt {
+   color: #000033;
+}
+
+footer {
+   font-size       : 90%;
+   background-color: #FFFFFF;
+   margin-left     : 190px;
+   font-style      : italic;
+   text-align      : center;
+   font-family     : Georgia, "Times New Roman", sans-serif;
+   padding         : 20px;
+   margin-top      : -19px;
+   left            : 280px;
+   text-align      : center;
+   clear           : both;
+}
+
+figure {
+   position  : absolute;
+   left      : 280px;
+   text-align: center;
+   opacity   : .25;
+      }
+
+header {
+   text-align : center;
+   margin     : auto;
+   height     : 60px;
+   padding-top: 15px;
+      }
+
+input {
+   text-align: center;
+   margin    : auto;
+   padding   : auto;
+}
+
+h1 {
+   /*background-image   : url(sunset.jpg);
+*/ background-position: left;
+   background-repeat  : inherit;
+   background-color   : #6a686e;
+   color              : #FFFFFF;
+   line-height        : 227%;
+   text-indent        : 1em;
+   text-align         : center;
+   text-shadow        : 8px 8px 8px black;
+   margin-bottom      : 0;
+   margin-top         : 0;
+   font-family        : Georgia, "Times New Roman", sans-serif;
+   text-align         : center;
+}
+
+h2 {
+   font-family: Georgia, "Times New Roman", sans-serif;
+   text-align : center;
+   text-shadow: .2px .2px .2px black;
+}
+
+h3 {
+   color     : #CFCFCF;
+   text-align: center;
+}
+
+h4 {
+   text-align: center;
+}
+
+h6 {
+    color      : #000000;
+    font-family: Georgia, "Times New Roman", sans-serif;
+    text-align : center;
+}
+
+h5 { 
+   color      : #000000;
+   font-family: Georgia, "Times New Roman", sans-serif;
+   text-align : center;
+}
+
+select, option, label, textarea, input {
+   display: block;
+   margin : auto;
+            }
+
+label {
+       width         : 120px;
+       text-align    : right;
+       padding-right : 50px;
+       padding-bottom: 10px;
+       margin-top    : 10px;
+   }
+
+main { 
+   display         : block;
+   background-color: #FFFFFF;
+   margin-left     : 190px;
+   padding         : 1px 20px 400px 30px;
+      }
+
+main .main {
+   background-color: #FFFFFF;
+}
+
+main .students_working {
+   display     : block;
+   margin-left : auto;
+   margin-right: auto;
+   width       : 50%;
+ }
+
+main .menteeInfo{
+   display         : block;
+   width           : 300px;
+   height          : 300px;
+   float           : left;
+   background-color: #42455a;
+   border-style    : solid;
+   margin-left     : 8em;
+}
+
+main .menteeInfo h1{
+   color: white;
+}
+
+main .mentorInfo{
+   display         : block;
+   width           : 300px;
+   height          : 300px;
+   float           : right;
+   background-color: #42455a;
+   border-style    : solid;
+   margin-right    : 8em;
+}
+
+main .mentorInfo h1{
+   color: white;
+}
+
+main .mentorInfo, .menteeInfo {
+   border-style: solid;
+   border-color: #000000;
+}
+
+main .menteeInfo, .mentorInfo h3, ul, li, p {
+   color          : #CFCFCF;
+   text-align     : center;
+   list-style-type: none;
+}
+
+main .menteeInfo ul li, .mentorInfo ul li {
+   float: left;
+}
+
+main .profile {
+   display         : block;
+   width           : 50%;
+   height          : auto;
+   margin          : auto;
+   background-color: #42455a;
+   border-style    : solid;
+}
+
+main .profile img {
+   width : 50%;
+   height: auto;
+}
+
+main .profile table {
+   background-color: #CFCFCF;
+   padding         : 20px;
+}
+
+main .profile h2{
+   color: #CFCFCF;
+}
+
+main .login {
+   width           : 30%;
+   margin          : 0px auto;
+   background-color: #42455a;
+   border-style    : solid;
+}
+
+main .loginUser {
+   text-align: left;
+}
+
+main .create_account {
+   width           : 30%;
+   margin          : 0px auto;
+   background-color: #42455a;
+   border-style    : solid;
+}
+
+label {
+    color: #CFCFCF;
+    clear: both;
+}
+
+main ul {
+   list-style-image: url(marker.gif);
+}
+
+input, textarea {
+   margin-top: 10px;
+   display   : block;
+   }
+
+input[type=submit] {
+   font-weight     : bold;
+   background-color: #cfcfcf;
+   border          : black;
+   color           : black;
+   padding         : 16px 32px;
+   text-decoration : none;
+   margin          : 4px 2px;
+   cursor          : pointer;
+   border-style    : solid;
+}
+
+a {
+   text-decoration: none;
+}
+
+.contact { 
+   color      : red;
+   font-weight: bold;
+}
+
+#wrapper {
+   margin-left     : auto;
+   margin-bottom   : 10px;
+   margin-right    : auto;
+   background-color: #CFCFCF;
+   min-width       : 960px;
+   max-width       : 2048px;
+   box-shadow      : 3px 3px 3px #333333;
+   width           : 68vw;
+}
+
+object { 
+   float  : right;
+   padding: 5px;
+   margin : auto;
+}
+
+table { 
+   border          : 1px solid #c5bebe;
+   width           : 100%;
+   border-spacing  : 0;
+   background-color: #CFCFCF;
+}
+
+th, td {
+   padding: 5px;
+   border : 1px solid #000000;
+}
+
+thead {
+   background-color: #cccccc
+}
+
+td {
+   text-align: center;
+}
+
+.text {
+   text-align: center;
+}
+
+tr:nth-of-type(even) {
+   background-color: #cccccc;
+}
+
+input[type="submit"] {
+    margin: auto;
+}
+
+/* CHANGED */
+
+nav { 
+   font-weight: bold;
+   padding    : 15px;
+   float      : left;
+   }
+
+nav button[type=button] {
+   background-color: #42455a;
+   color           : white;
+   text-decoration : none;
+   border-style    : none;
+   padding         : 6px 22px;
+   font-size       : 16px;
+   margin-top      : 1.9vh;
+}
+
+nav a:link {
+   color: #000000;
+}
+
+nav a:visited {
+   color: #000000;
+ }
+
+nav a:hover {
+   color: #FFFFFF;
+} 
+
+/* CHANGED */
+
+/* ADDED */
+.nav ul{
+	overflow        : auto;
+	list-style-type : none;
+	background-color: #6a686e;
+	margin-left     : 0;
+	margin-top      : 0;
+	padding-left    : 0;
+	height          : 28vh;
+	width           : 9.3vw;
+}
+
+.nav li a{
+	display        : block;
+	color          : white;
+	text-align     : center;
+	padding-top    : 1.25vh;
+	padding-bottom : 1.25vh;
+	padding-left   : 3.05vw;
+	padding-right  : 3.05vw;
+	text-decoration: none;
+}
+
+.nav li a:hover{
+	background-color: #42455a;
+}
+
+nav button:hover{
+   background-color: #4a4d5c;
+}
+
+.current{
+	background-color: #42455a;
+}
+
+.logNav ul{
+	overflow        : auto;
+	list-style-type : none;
+	background-color: #6a686e;
+	margin-left     : 0;
+	margin-top      : 0;
+	padding-left    : 0;
+	height          : 9.6vh;
+}
+
+.logNav li a {
+	display        : block;
+	color          : white;
+	text-align     : center;
+	padding-top    : 1.25vh;
+	padding-bottom : 1.25vh;
+	padding-left   : 0.6vw;
+	padding-right  : 0.6vw;
+	text-decoration: none;
+}
+
+.logNav li a:hover {
+	background-color: #42455a;
+}
+
+.niceButton {
+  margin          : auto;
+  display         : block;
+  margin-bottom   : 2vh;
+  background-color: #4a4d5c;
+  color           : white;
+  padding         : 6px 22px;
+  font-size       : 16px;
+  border-style    : none;
+}
+
+.niceButton:hover {
+  background-color: #595a63;
+}
+
+.profilePic {
+  margin-left   : 8vw;
+  display       : none;
+  padding-bottom: 2vh;
+}
+
+.userPicture {
+  display: none;
+  margin : auto auto;
+  display: none;
+  width  : 550px;
+  height : 300px;
+}
+
+.defaultPic {
+  margin : auto auto;
+  display: block;
+  width  : 550px;
+  height : 300px;
+}
+
+/* ADDED */
